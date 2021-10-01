@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    background-color: #ceb264;
+}
+
+h1{
+    font-family: cursive;
+    font-size: 2.8vmax;
+    text-decoration: underline;
+    margin: 0;
+    margin-bottom: 10pt;
+    
+}   
+
+
+ul{
+    list-style-type: none;
+    text-align: left;
+    padding: 0 0 0 0;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: snow;
+}
+
+
+.noDeco, .noDeco:hover{
+    text-decoration-line: none;
+    text-decoration-style: none;
+    color: black;
+}
+li:hover{
+    background-color: darkgray;
+}
+
+img{
+    max-width: 50%;
+    transition-duration: 1s;
+    transition-delay: 50ms;
+}
+
+#miataPicture{
+    width: 20%;
+    height: 15%;  
+}
+
+#miataPicture:hover{
+    width: 35%;
+}
+
+#myList{
+    margin-left: 45%;
+    margin-right: 45%;
+    background-color: white;
+    border-style:double;
+}
